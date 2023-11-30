@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/marcosjara/facturacionelectronicapy-xmlsign/issues"
   },
-  "homepage": "https://github.com/marcosjara/facturacionelectronicapy-xmlsign#readme",
+  "homepage": "https://github.com/fintechinnovaciondev/fi-facturacionelectronicapy-xmlsign#readme",
   "files": [
     "dist/**/*"
   ],
