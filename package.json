@@ -1,5 +1,5 @@
 {
-  "name": "fi-facturacionelectronicapy-xmlsign",
+  "name": "fi-facturacionelectronica-xmlsign",
   "version": "1.0.0",
   "description": "Módulo NodeJs para la firma de Archivo XML para la Facturación Electrónica en Paraguay",
   "main": "dist/index.js",
