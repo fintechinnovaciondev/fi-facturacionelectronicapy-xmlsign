@@ -39,6 +39,7 @@
   "license": "MIT",
   "dependencies": {
     "copyfiles": "^2.4.1",
+    "facturacionelectronicapy-pkcs12": "github:TIPS-SA/facturacionelectronicapy-pkcs12",
     "find-java-home": "^1.2.2",
     "node-forge": "^0.8.5",
     "xml2js": "^0.4.23",
