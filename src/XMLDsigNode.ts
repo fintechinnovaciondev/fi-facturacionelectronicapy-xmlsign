@@ -1,11 +1,12 @@
-const pkcs12 = require('facturacionelectronicapy-pkcs12');
+//const pkcs12 = require('facturacionelectronicapy-pkcs12');
 
 class XMLDsigNode {
   
   public async signDocument(xmls: Array<any>, tag: any, file: any, password: any) {
     return new Promise(async (resolve, reject) => {
+      var dsig = null;
       try {
-          var separator = '_SEPARATOR_';
+          /*var separator = '_SEPARATOR_';
           var dsig = new pkcs12(file);
           dsig.openSession(password);
 
@@ -18,13 +19,16 @@ class XMLDsigNode {
           //Retira el ultimo _SEPARATOR_
           xmlFirmado = xmlFirmado.substring(0, xmlFirmado.length - separator.length);
 
-          resolve(xmlFirmado);
+          resolve(xmlFirmado);*/
+          resolve("");
 
       } catch(e) {
           console.error(e);
           reject(e);
       } finally {
-          dsig.closeSession();
+        if (dsig != null) {
+          //dsig.closeSession();
+        }
       }
     });
   }
